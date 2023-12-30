@@ -10,6 +10,7 @@ sudo apt update && sudo apt list --upgradable && sudo apt upgrade -y
 sudo apt install libfuse2
 ```
 ### Unduh installer dompet
+
 #### Unduh installer dompet Owshen:
 ```
 wget https://github.com/OwshenNetwork/owshen/releases/download/v0.1.0/Owshen_v0.1.0_x86_64.AppImage
@@ -19,7 +20,7 @@ wget https://github.com/OwshenNetwork/owshen/releases/download/v0.1.0/Owshen_v0.
 chmod +x Owshen_v0.1.0_x86_64.AppImage
 ```
 ### Membuat dompet baru
-'Untuk membuat dompet baru, jangan lupa untuk menyimpan frase sandi:'
+'Untuk membuat dompet baru, `jangan lupa untuk menyimpan frase sandi:`
 ```
 ./Owshen_v0.1.0_x86_64.AppImage init
 ```
